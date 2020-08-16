@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/rawVideoFragment">
+
+    <fragment
+        android:id="@+id/rawVideoFragment"
+        android:name="com.learntodroid.androidvideotutorial.RawVideoFragment"
+        android:label="RawVideoFragment" />
+    <fragment
+        android:id="@+id/webVideoFragment"
+        android:name="com.learntodroid.androidvideotutorial.WebVideoFragment"
+        android:label="WebVideoFragment" />
+    <fragment
+        android:id="@+id/mediaStoreVideoFragment"
+        android:name="com.learntodroid.androidvideotutorial.MediaStoreVideoFragment"
+        android:label="MediaStoreVideoFragment" />
+</navigation>

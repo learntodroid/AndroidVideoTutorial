@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rawVideoFragment"
+        android:title="Raw Video"/>
+
+    <item
+        android:id="@+id/webVideoFragment"
+        android:title="Web Video"/>
+
+    <item
+        android:id="@+id/mediaStoreVideoFragment"
+        android:title="MediaStore Video"/>
+</menu>
